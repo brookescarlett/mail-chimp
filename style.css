@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Avenir Next Thin";
+    src: url("./fonts/AvenirNextLTPro-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Avenir Light";
+    src: url("./fonts/AvenirNextLight.otf") format("opentype");
+}
+
+
+body, .container,  {
+    background-color: rgb(9, 20, 45);
+    color: white;
+}
+
+
+p {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 20, 45);
+}
+
+.top-logo {
+    position: absolute;
+    height: 100px;
+    float: center;
+    padding: 0px 20px;
+}
+
+.bottom-logo {
+    position: relative;
+    bottom: 0;
+    height: 40px;
+    margin-top: -55px;
+}
+
+.border {
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 35px 120px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.main-text {
+    font-size: 45px;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   color: rgb(9, 20, 45);
+   font-family: "Avenir Next";
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+
+.sub-text {
+    font-size: 22px;
+   font-family: "Avenir Next";
+
+}
+
+.name-text {
+    font-size: 33px;
+   font-family: "Avenir Next";
+
+}
+
+.close-text {
+    margin-top: 48px;
+}
+
+.close-text p {
+    line-height: 12px;
+}
+
+.last-text {
+    font-size: 18px;
+    font-family: "Avenir Next"
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+.social-icons img { 
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+}
